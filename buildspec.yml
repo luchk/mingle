@@ -10,9 +10,12 @@ phases:
       - ls
       - cd mingle
       - ls
+      - cd script
+      - ls
   build:
     commands:
       - echo Build started on `date`
+      - bash build
   post_build:
     commands:
       - echo Build completed on `date`
