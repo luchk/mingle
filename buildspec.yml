@@ -7,6 +7,9 @@ phases:
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
+      - ls
+      - cd mingle
+      - ls
   build:
     commands:
       - echo Build started on `date`
