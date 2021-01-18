@@ -16,6 +16,7 @@ phases:
     commands:
       - echo Build started on `date`
       - bash build
+      - source ~/.bashrc
       - bash server
   post_build:
     commands:
