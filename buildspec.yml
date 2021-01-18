@@ -13,8 +13,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - script/build
-      - script/tomcat
+      - bash script/build
+      - bash script/tomcat
   post_build:
     commands:
       - echo Build completed on `date`
