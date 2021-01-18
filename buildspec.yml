@@ -10,11 +10,12 @@ phases:
       - ls
       - cd mingle
       - ls
+      - cd script
   build:
     commands:
       - echo Build started on `date`
-      - script/build
-      - script/tomcat
+      - bash build
+      - bash tomcat
   post_build:
     commands:
       - echo Build completed on `date`
