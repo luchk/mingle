@@ -16,8 +16,7 @@ phases:
     commands:
       - echo Build started on `date`
       - bash build
-      - source ~/.bashrc
-      - bash server
+      - bash tomcat
   post_build:
     commands:
       - echo Build completed on `date`
